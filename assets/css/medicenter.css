@@ -1,12 +1,11 @@
 /*General*/
 *{
     box-sizing: border-box;
-}
+    font-family: Montserrat;}
 body{
     margin: 0;
     padding: 0;
     background-color:white ;
-    font-family: Montserrat;
 }
 /*Header*/
 header{
@@ -102,6 +101,9 @@ nav a:hover{
 .banner3{
     flex: 1;
     color: white;
+    padding: 20px;
+    font-weight: 400;
+    
 }
 .banner1{
     background-color: #39aae1;
@@ -111,4 +113,29 @@ nav a:hover{
 }
 .banner3{
     background-color: #2b4c99;
+}
+.banner_title{
+    font-size: 21px;
+    
+}
+.banner_desc{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.linkbanner{
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.agenda{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #627dc7;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
