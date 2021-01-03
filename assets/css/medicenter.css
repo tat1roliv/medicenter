@@ -6,6 +6,7 @@ body{
     margin: 0;
     padding: 0;
     background-color:white ;
+    font-family: Montserrat;
 }
 /*Header*/
 header{
@@ -14,12 +15,12 @@ header{
 }
 /*Topo*/
 .container{
-    background-color:antiquewhite;
+    background-color: white;
     height: 120px;
     width: 990px;
     display: flex;
     justify-content: space-between;
-    
+ 
 }
 /*topo-logo*/
 .container .logo{
@@ -29,10 +30,11 @@ header{
 }
 /*topo-menu*/
 .container .menu{
-    background-color:gray;
+    background-color: white;
     display: flex;
     align-items: center;
 }
+ 
 nav ul,
 nav li{
     list-style: none;
@@ -42,13 +44,24 @@ nav li{
 nav ul{
     display: flex;
 }
-nav li{
-/**/
-}
 nav a{
-    display: block ;
-    padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
+    display: block;
+    padding: 15px;
     color: #727272;
 }
+nav .active a,
+nav a:hover{
+    background-color: #39aae1;
+    color: white;
+}
+/*Sections*/
+/*Banner*/
+#banner{
+    background-image: url(../images/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+
