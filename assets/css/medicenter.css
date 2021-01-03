@@ -1,0 +1,54 @@
+/*General*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:white ;
+}
+/*Header*/
+header{
+    display: flex;
+    justify-content: center;
+}
+/*Topo*/
+.container{
+    background-color:antiquewhite;
+    height: 120px;
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+/*topo-logo*/
+.container .logo{
+    display: flex;
+    align-items: center;
+
+}
+/*topo-menu*/
+.container .menu{
+    background-color:gray;
+    display: flex;
+    align-items: center;
+}
+nav ul,
+nav li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+/**/
+}
+nav a{
+    display: block ;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+}
