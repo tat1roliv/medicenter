@@ -255,9 +255,12 @@ footer{
     background-color: #1e1e1e;
     display: flex;
     justify-content: center;
-      color: white;
+      
 }
 /*footer menu*/
+.Flexcolumn{
+    flex-direction: column;
+}
 .footer_menu{
     display: flex;
     flex: 1;
@@ -266,4 +269,23 @@ footer{
 .fm2,
 .fm3{
     flex: 1;
-}  
+    color: white;
+    padding: 20px;
+}
+.fm1{
+    background-color: #39aae1;
+}
+.fm2{
+    background-color: #0079c7;
+}
+.fm3{
+    background-color: #2b4c99;
+}
+/*footer_area*/
+.footer_area{
+    display: flex;
+    color: white;
+}
+.areaitem{
+    flex: 1;
+}
