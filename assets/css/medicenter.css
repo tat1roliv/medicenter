@@ -180,10 +180,10 @@ nav a:hover{
     margin: 10px;
     text-align: center;
 }
+/*Appointment*/
 .appoitmentcontent{
     display: flex;
     flex-direction: column;
-    
 }
 .appoitmentcontent div{
     display: flex;
@@ -194,5 +194,47 @@ nav a:hover{
     margin-bottom: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+/*Section*/
+/*Article*/
+/*link news*/
+article a{
+    text-decoration: none;
+}
+/*bottons*/
+article .news_data{
+    display: flex;
+}
+article .news_posted_at{
+    color: white;
+    background-color: #2b4c99;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+article .news_comments{
+    color: white;
+    background-color: #39aae1;
+    font-size: 12px;
+    padding: 10px;
+}
+/*imgs*/
+article .news_thumbnail {
+    margin-top: 30px;
+}
+article .news_thumbnail img{
+    width: 100%;
+    height: auto;
+}
+article .news_title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 23px;
+}
+article .news_resume{
+    color:#5c5c5c;
+    font-size: 14px;
+    line-height: 20px;
 }
  
