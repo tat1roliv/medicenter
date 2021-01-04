@@ -180,3 +180,19 @@ nav a:hover{
     margin: 10px;
     text-align: center;
 }
+.appoitmentcontent{
+    display: flex;
+    flex-direction: column;
+    
+}
+.appoitmentcontent div{
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    border-bottom: 1px solid #627dc7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ 
