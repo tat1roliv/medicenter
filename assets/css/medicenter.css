@@ -197,6 +197,16 @@ nav a:hover{
 }
 /*Section*/
 /*Article*/
+/*flex*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    flex:1;
+    min-width: 300px;
+    margin-right: 20px;
+}
 /*link news*/
 article a{
     text-decoration: none;
@@ -226,15 +236,18 @@ article .news_thumbnail img{
     width: 100%;
     height: auto;
 }
+/*news title*/
 article .news_title{
     margin-top: 25px;
     margin-bottom: 25px;
     color: black;
     font-size: 23px;
 }
+/*news resume*/
 article .news_resume{
     color:#5c5c5c;
     font-size: 14px;
     line-height: 20px;
+    margin-bottom: 30px;
 }
  
