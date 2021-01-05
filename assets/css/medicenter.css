@@ -303,3 +303,12 @@ footer .widget_title_text{
     color:white;
     text-decoration: none;
 }
+/*footer area 1*/
+.widget_body_text{
+    color: #5c5c5c;
+    font-size: 13px;
+    margin-right: 50px;
+}
+.widget_body_text p{
+    padding-top: 10px;
+}
