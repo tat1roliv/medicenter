@@ -372,4 +372,8 @@ footer .widget_title_text{
     line-height: 1.2px;
     text-decoration: underline;
 }
+/*responsiveness*/
+@media (max-width: 600px){
+    
+}
 
