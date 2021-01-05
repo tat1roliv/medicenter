@@ -305,12 +305,17 @@ footer .widget_title_text{
 }
 /*footer area 1*/
 .widget_body_text{
-    color: #5c5c5c;
+    color: #838080;
     font-size: 13px;
     margin-right: 50px;
 }
 .widget_body_text p{
     padding-top: 10px;
+    
+}
+.widget_body_text a{
+    text-decoration: none;
+    
 }
 .footer_fone1,
 .footer_fone2,
@@ -327,6 +332,37 @@ footer .widget_title_text{
 .fone2{
     padding-right: 50px;
 }
+
 /*footer area 2*/
-
-
+.widget_latenews{
+    padding-top: 10px;
+    color: #D5D5D5;
+    font-size: 13px;
+    padding-right: 50px;
+}
+.widget_latenews p{
+    line-height: 1.2px;
+    color: #36a9e1;
+}
+.widget_latenews a{
+    color: #D5D5D5;
+    font-size: 13px;
+    line-height: 1.2px;
+    text-decoration: none;
+}
+/*footer area 3*/
+.widget_latetws{
+    padding-top: 10px;
+    color: #D5D5D5;
+    font-size: 13px;
+    padding-right: 50px;
+}
+.widget_latetws p{
+    line-height: 1.2px;
+}
+.widget_latetws a{
+    color: #D5D5D5;
+    font-size: 13px;
+    line-height: 1.2px;
+    text-decoration: none;
+}
