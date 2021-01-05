@@ -315,6 +315,7 @@ footer .widget_title_text{
 }
 .widget_body_text a{
     text-decoration: none;
+    color: white;
     
 }
 .footer_fone1,
@@ -359,10 +360,11 @@ footer .widget_title_text{
 }
 .widget_latetws p{
     line-height: 1.2px;
+    color: #36a9e1;
 }
 .widget_latetws a{
     color: #D5D5D5;
     font-size: 13px;
     line-height: 1.2px;
-    text-decoration: none;
+    text-decoration: underline;
 }
