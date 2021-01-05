@@ -290,3 +290,15 @@ footer{
 footer .widget_title_text{
     color: white;
 }
+/*footer_copy*/
+.footer_copy{
+    border-top: 1px solid #2c2c2c;
+    color:#5c5c5c;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+}
+.footer_copy a{
+    color:white;
+    text-decoration: none;
+}
