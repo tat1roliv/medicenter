@@ -289,3 +289,6 @@ footer{
 .areaitem{
     flex: 1;
 }
+footer .widget_title_text{
+    color: white;
+}
