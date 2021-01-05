@@ -312,3 +312,21 @@ footer .widget_title_text{
 .widget_body_text p{
     padding-top: 10px;
 }
+.footer_fone1,
+.footer_fone2,
+.footer_fone3,
+.footer_fone4{
+    line-height: 1.2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+.fone1,
+.fone2{
+    padding-right: 50px;
+}
+/*footer area 2*/
+
+
