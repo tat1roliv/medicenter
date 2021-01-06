@@ -441,5 +441,8 @@ footer .widget_title_text{
         flex-direction: column;
         justify-content: space-around;
     }
+    .footer_copy{
+        height: 75px;
+    }
 }
 
