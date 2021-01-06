@@ -388,6 +388,9 @@ footer .widget_title_text{
 
 /*responsiveness*/
 @media (max-width: 600px){
+    #banner{
+        height: auto;
+    }
     .banner_headline{
         padding: 20px;
     }
