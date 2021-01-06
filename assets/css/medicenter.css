@@ -374,6 +374,32 @@ footer .widget_title_text{
 }
 /*responsiveness*/
 @media (max-width: 600px){
-    
+    .banner_headline{
+        padding: 20px;
+    }
+    .banner_headline h1{
+        font-size: 50px;
+    }
+    .banner_headline h2{
+        font-size: 16px;
+    }
+    .banner_options{
+        height: auto;
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+    section .general section,
+    section .general aside{
+        padding: 20px;
+    }
+    .footer_menu,
+    .footer_area{
+        flex-direction: column;
+    }
+    .footer_area{
+        padding: 20px;
+    }
 }
 
