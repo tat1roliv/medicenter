@@ -420,7 +420,7 @@ footer .widget_title_text{
     }
     nav ul{
        flex-direction: column; 
-       /*display: none;*/
+       display: none;
        position:absolute;
        left: 0;
        width: 100%;
